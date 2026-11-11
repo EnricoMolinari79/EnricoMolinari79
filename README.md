@@ -1,16 +1,17 @@
-## Hi there 👋
+# Hi, I'm Enrico 👋
 
-<!--
-**EnricoMolinari79/EnricoMolinari79** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Third-year BSc student in **Applied Computer Science and Data Analytics** (IADA) at the University of Cagliari.
+Interested in **deep learning** and **AI security / adversarial machine learning**.
 
-Here are some ideas to get you started:
+## 🔬 Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [HistoBreastNet](https://github.com/JacopoBertucelli/HistoBreastNet)
+Deep learning for benign/malignant classification of breast histopathology images (BreakHis), developed in a team of two.
+
+**My contribution:**
+- Data preprocessing pipeline and dataset reduction (diversity-preferring patient selection under a storage budget)
+- CNN baseline trained from scratch (TensorFlow/Keras, ~0.26M parameters)
+- Generalization study: **patient-wise vs. image-wise evaluation** with 5-fold patient-wise cross-validation, showing that image-wise splits overestimate performance (AUROC ~0.96 vs. ~0.84)
+
+## 🛠️ Tools
+Python · TensorFlow/Keras · Google Colab · Git
